@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01 - Frontend III</title>
+</head>
+<body>
+    <div id="container">
+        
+    </div>
+    <!-- <script>
+        const numero = 10;
+
+        var container = document.getElementById("container");
+        var h1 = document.createTextNode("h1"); //por causa dos nós, atua diretamnete no DOM
+
+        h1.appendChild(conteudo);
+        container.appendChild(h1);
+
+    </script> -->
+
+    <!-- cdn do react precias estar no inicio do código -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    
+    <script>
+        // create element aceita 3 elementos, o elemento, propriedades, 
+        var h1 = React.createElement("h1", {id:"title", style:{color:"red", backgroundColor:"green"}}, "hello worllllllsssss"); // elemento, objeto passando um id
+        
+        // passando uma função onClick
+        var button = React.createElement("button", {onClick: ()=> {alert("ok")}}, 'Aperte'); 
+        
+        var container = React.createElement("div",{}, [h1,button])
+        ReactDOM.render(container, document.getElementById("container"));
+
+    </script>
+</body>
+</html>
