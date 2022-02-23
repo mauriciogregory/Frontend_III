@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesa de Trabalho 02 - Aula 02</title>
+</head>
+<body>
+    <div id="container"></div>
+
+    <!-- cdn do react precisa estar no inicio do código -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- para usar o babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+
+        const produtosEmEstoque = ['Maça','Pera','Laranja','Banana'];
+        const produtosEmFalta = ['Pêssego', 'Cereja','Kiwi'];
+
+        function ProdutosEmEstoque(item){
+
+        }
+
+        const container = 
+        <>
+            <h1>Produtos em estoque:</h1>
+            <ul>
+                {
+                    produtosEmEstoque.map((elemento) => {
+                        return <li>{elemento}</li>;
+                    })
+                }
+            </ul>
+
+            <h2>Produtos em falta:</h2>
+            <ul>
+                {
+                    produtosEmFalta.map((el) => {
+                        return <li>{el}</li>;
+                    })
+                }
+            </ul>
+        </>
+
+        ReactDOM.render(container, document.getElementById('container'));
+    </script>
+    
+</body>
+</html>
