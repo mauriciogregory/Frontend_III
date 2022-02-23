@@ -1,0 +1,16 @@
+body {
+    background-color: azure;
+}
+
+.title {
+    background-color: aquamarine;
+}
+
+.error {
+    background-color: red;
+}
+
+.default {
+    background-color: blueviolet;
+}
+

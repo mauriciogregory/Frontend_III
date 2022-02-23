@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Mesa de Trabalho 2 - Aula 02</title>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <script type="text/babel">
+        const listaProdutos = ['Maçã', 'Pera', 'Goiaba'];
+        const listaProdutosFalta = ['Pêssego','Kaki', 'Kiwi']
+
+        function ProdutosEmFalta({ item }) {
+            let i = item.map((el) => {
+                return <li>{el}</li>
+            });
+
+            return (
+                <>
+                    <h1 className="title">Produtos em Estoque:</h1>
+                    {i}
+                </>
+            );
+        }
+
+        function ProdutosFalta({ item }) {
+            let i = item.map((e) => {
+                return <li className="default">{e}</li>
+            })
+            
+            return (
+                <>
+                    <h2 className="error">Produtos em Falta:</h2>
+                    {i}
+                </>
+            );
+        }
+
+        const container =
+            <>
+                <ProdutosEmFalta item={listaProdutos} />
+                <ProdutosFalta item={listaProdutosFalta} />
+            </>
+
+        ReactDOM.render(container, document.getElementById("container"));
+
+    </script>
+</body>
+
+</html>
