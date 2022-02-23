@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 - Backend I</title>
+</head>
+
+<body>
+    <div id="container"></div>
+    <!-- JSX é uma extensão para criação de componentes -->
+    <!-- o código tem que ser transcopilado -->
+
+    <!-- cdn do react precias estar no inicio do código -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- para usar o babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- para usar o babel precisa colocar o type no script abaixo -->
+    <script type="text/babel">
+        function handlerButton() {
+            alert("ok");
+        };
+
+        const name = "HeLLLLLLO";
+        const frutas = ['Laranja', 'Pera', 'Goiaba'];
+
+        // usando map
+        // frutas.map((elemento) => {
+        // });
+
+        var container =
+            <div>
+                <h1 className="title" style={{ color: 'red', backgroundColor: 'green' }}>{name}</h1>
+                <ul>
+                    {
+                        frutas.map((el, index) => {
+                            return <li key={index.toString()}>{el}</li>
+                        })
+                    }
+                </ul>
+
+                <img src="" alt="" />
+                <button onClick={handlerButton}>Botão</button>
+            </div>
+
+        ReactDOM.render(container, document.getElementById("container"));
+
+    </script>
+
+</body>
+<!-- 
+<li>{frutas[0]}</li>
+<li>2</li>
+<li>3</li> -->
+</html>
