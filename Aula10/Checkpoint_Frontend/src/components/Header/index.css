@@ -1,0 +1,21 @@
+header {
+    background-color:blue;
+    display: flex;
+    height: 100px;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.menu {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.item-menu {
+    margin: 10px;
+}

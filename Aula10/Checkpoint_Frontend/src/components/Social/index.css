@@ -1,0 +1,27 @@
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin {
+    color: brown;
+    width: 4%;
+    height: 4%;
+    margin: 10px;
+}
+
+.github {
+    color: brown;
+    width: 4%;
+    height: 4%;
+    margin: 10px;
+}
+
+.email {
+    color: brown;
+    width: 4%;
+    height: 4%;
+    margin: 10px;
+}
+
