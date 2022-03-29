@@ -50,7 +50,7 @@ export default function Projects() {
               <h3>{item.name}</h3>
               </div>
               <div className='links'>
-                <a className="link-projet" href={item.link}>
+                <a className="link-projects" href={item.link}>
                   Link
                 </a>
               </div>

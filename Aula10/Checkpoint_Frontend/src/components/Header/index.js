@@ -1,4 +1,4 @@
-import logo from '../../assets/img/logo.png';
+import logo from '../../assets/img/perfil.jpg';
 import './index.css';
 
 function handler(id){
@@ -7,8 +7,8 @@ function handler(id){
 
 export default function Header() {
   return (
-    <header className='nav navbar'>
-      <img src={logo} width={100}/>
+    <header className=''>
+      <img src={logo} width={200} heigth={200}/>
       <ul className="menu">
         {/* {} */}
         <li className="item-menu" onClick={() => handler('about')}>About</li>

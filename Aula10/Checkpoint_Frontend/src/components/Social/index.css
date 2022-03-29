@@ -1,27 +1,48 @@
 .social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: beige;
+  /* background: #525252; */
 }
 
 .linkedin {
-    color: brown;
-    width: 4%;
-    height: 4%;
-    margin: 10px;
+  color: brown;
+  width: 30%;
+  height: 10vh;
+  margin: 10px;
 }
 
 .github {
-    color: brown;
-    width: 4%;
-    height: 4%;
-    margin: 10px;
+  color: brown;
+  width: 30%;
+  height: 10vh;
+  margin: 10px;
 }
 
 .email {
-    color: brown;
-    width: 4%;
-    height: 4%;
-    margin: 10px;
+  color: brown;
+  width: 20%;
+  height: 10vw;
+  margin: 10px;
 }
 
+.social_ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(136, 127, 127);
+  background: rgb(24, 13, 3);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.copy {
+  color: azure;
+}

@@ -1,0 +1,31 @@
+.form-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 150px; */
+}
+
+input {
+    /* padding: 15px; */
+    border: black solid 2px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 15px;
+    height: 50px;
+    width: 120px;
+    border: black solid 2px;
+    background-color: brown;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button:hover {
+    filter: brightness(0.7);
+    transition: ease all 0.2s;
+    cursor: pointer;
+}
+
