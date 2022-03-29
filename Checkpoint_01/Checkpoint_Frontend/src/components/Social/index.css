@@ -1,0 +1,56 @@
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: beige !important;
+  color: blanchedalmond;
+  /* max-width: 1200px; */
+  /* background: #525252; */
+}
+
+.linkedin {
+  color: brown;
+  width: 30%;
+  height: 10vh;
+  margin: 10px;
+}
+
+.github {
+  color: brown;
+  width: 30%;
+  height: 10vh;
+  margin: 10px;
+}
+
+.email {
+  color: brown;
+  width: 20%;
+  height: 10vw;
+  margin: 10px;
+}
+
+.social_ {
+  background: #141414 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: solid grey 1px;
+  /* border: solid 2px rgb(136, 127, 127); */
+  /* background: rgb(24, 13, 3); */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: auto; */
+}
+
+a {
+  text-align: center;
+}
+
+.copy {
+  color: azure;
+}

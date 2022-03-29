@@ -1,0 +1,53 @@
+.skills {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  align-items: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  color: aliceblue;
+}
+
+.ling {
+  margin: 20px;
+  /* background-color: blue; */
+  padding: 20px;
+  justify-content: stretch;
+}
+
+.skill-ling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.java {
+  color: rgba(238, 34, 34, 0.897);
+  width: 50%;
+  height: 50%;
+}
+
+.js {
+  color: rgb(233, 233, 83);
+  width: 50%;
+  height: 50%;
+}
+
+.html {
+  color: brown;
+  width: 50%;
+  height: 50%;
+}
+
+.css {
+  color: rgb(79, 26, 202);
+  width: 50%;
+  height: 50%;
+}
+
+@media (max-width: 460px) {
+  .skills {
+    flex-direction: column;
+  }
+}
