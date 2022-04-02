@@ -1,0 +1,22 @@
+:root {
+  align-items: center;
+}
+
+.header-nav {
+  max-width: 1203px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin:0 100px; */
+}
+
+.menu-nav {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
