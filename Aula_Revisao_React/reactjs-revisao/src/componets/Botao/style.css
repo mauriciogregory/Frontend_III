@@ -1,0 +1,12 @@
+.c-botao {
+    background-color: rgb(80, 20, 136);
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 15px 0;
+    width: 100%;
+
+    /* animação */
+    transition-property: transform background-color;
+}

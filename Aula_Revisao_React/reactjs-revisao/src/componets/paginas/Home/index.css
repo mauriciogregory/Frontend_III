@@ -1,0 +1,22 @@
+.c-cartao {
+    border-radius: 25px;
+    border: 1px solid lightcoral;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+    /* Animação */
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+.c-cartao:hover {
+    /* translate: ; */
+}
+
+.c-cartao__titulo {
+
+}
+
+.c-cartao__corpo {
+
+}
