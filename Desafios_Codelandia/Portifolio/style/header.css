@@ -10,13 +10,20 @@ header {
     /* gap na classe pai */
     gap: 16px;
     list-style: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
+.nav-item a {
+    animation: ease-in-out 1s;
+}
 
+.item-menu:hover {
+    transform: scale(1.1);
+    /* text-decoration: underline rebeccapurple; */
+}
 
 .logo {
-    font-family: "IBM PLEX Mono",monospace;
+    font-family: "IBM PLEX Mono", monospace;
     font-size: 24px;
 }
 
