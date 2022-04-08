@@ -1,0 +1,19 @@
+.hero {
+    margin: 128px 0;
+}
+
+.hero h1 {
+    font-size: 64px;
+    margin: 32px 0;
+}
+
+.hero h2 {
+    font-size: 20px;
+    color: #04d361;
+    font-weight: 700;
+}
+
+.hero p {
+  max-width: 832px;  
+}
+

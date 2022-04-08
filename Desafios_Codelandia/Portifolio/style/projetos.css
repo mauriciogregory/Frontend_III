@@ -1,0 +1,26 @@
+
+.projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.item-projeto {
+    /* background-color: #ccc; */
+    list-style-type: none;
+    border: solid 1px #873efe;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.item-projeto img {
+    width: 100%;
+    height: 224px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.item-projeto h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
